@@ -7,3 +7,4 @@ HR = int(input("Enter Hour: "))     # 24 Hour Format
 MIN = int(input("Enter Minutes:"))
 
 pywhatkit.sendwhatmsg(PHONE_NUMBER, MESSAGE, HR, MIN)
+# command line testing
